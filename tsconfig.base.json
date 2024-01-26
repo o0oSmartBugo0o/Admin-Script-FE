@@ -1,0 +1,46 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@admin-script-app-fe/access-layer": [
+        "libs/shared/modules/access-layer/src/index.ts"
+      ],
+      "@admin-script-app-fe/alerts": ["libs/shared/ui/alerts/src/index.ts"],
+      "@admin-script-app-fe/auth-layer": [
+        "libs/shared/modules/auth-layer/src/index.ts"
+      ],
+      "@admin-script-app-fe/buttons": ["libs/shared/ui/buttons/src/index.ts"],
+      "@admin-script-app-fe/forms": ["libs/shared/ui/forms/src/index.ts"],
+      "@admin-script-app-fe/grid": ["libs/shared/ui/grid/src/index.ts"],
+      "@admin-script-app-fe/modals": ["libs/shared/ui/modals/src/index.ts"],
+      "@admin-script-app-fe/navigation": [
+        "libs/shared/ui/navigation/src/index.ts"
+      ],
+      "@admin-script-app-fe/notifications": [
+        "libs/shared/ui/notifications/src/index.ts"
+      ],
+      "@admin-script-app-fe/plugins": ["libs/plugins/src/index.ts"],
+      "@admin-script-app-fe/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@admin-script-app-fe/tables": ["libs/shared/ui/tables/src/index.ts"],
+      "@admin-script-app-fe/translation": [
+        "libs/shared/modules/translation/src/index.ts"
+      ],
+      "@admin-script-app-fe/widgets": ["libs/widgets/src/index.ts"],
+      "@admin-script-app-fe/wizard": ["libs/shared/ui/wizard/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
